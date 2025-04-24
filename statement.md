@@ -55,3 +55,7 @@ $$acc=\frac{\sum_{i=1}^{q}|S_i\cap S_i'|}{q\cdot k}\text{,}$$
 其中，$S_i$ 为算法对第 $i$ 个查询的输出，$S_i'$ 为离第 $i$ 个查询坐标最近的 $k$ 个点组成的集合。
 
 你需要在保证算法正确率不小于95\%的前提下尽可能提升算法效率。
+
+**附**
+
+基于KNN图的ANNS算法是解决上述问题的方法之一。与之相关的题目可在[本repo中knn-anns目录](https://github.com/LTTMG/anns-problem/tree/master/knn-anns)下找到。
