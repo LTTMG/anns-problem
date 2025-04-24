@@ -1,12 +1,12 @@
 ## Usage
 
-ÔËĞĞANNS Demo
+è¿è¡ŒANNS Demo
 ```
 g++ anns-demo.cpp -o demo
 ./demo < ../testcase/10k.in > 10k.out
 ```
 
-²âÊÔËã·¨×¼È·ÂÊ
+æµ‹è¯•ç®—æ³•å‡†ç¡®ç‡
 ```
 g++ checker.cpp -o checker
 ./checker ../testcase/10k.in 10k.out ../testcase/10k.ans
