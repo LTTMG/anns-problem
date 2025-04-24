@@ -21,7 +21,7 @@ int main(int argc, char** argv) {
         std::set<int> output;
         int tmp;
         for (int j = 0; j < k; ++j) {
-            tmp = ouf.readInt(0, n - 1);
+            tmp = ouf.readInt(1, n);
             output.insert(tmp);
         }
         for (int j = 0; j < k; ++j) {
